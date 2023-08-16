@@ -1,5 +1,6 @@
 import argparse
 import day1.solution as day1
+import day2.solution as day2
 
 
 def main():
@@ -15,6 +16,9 @@ def main():
         case 1:
             solution_fn_a = day1.part_one
             solution_fn_b = day1.part_two
+        case 2:
+            solution_fn_a = day2.part_one
+            solution_fn_b = day2.part_two
         case day:
             raise ValueError("Day {} not implemented".format(day))
 
