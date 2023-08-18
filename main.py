@@ -3,6 +3,7 @@ import day1.solution as day1
 import day2.solution as day2
 import day3.solution as day3
 import day4.solution as day4
+import day5.solution as day5
 
 
 def main():
@@ -27,6 +28,9 @@ def main():
         case 4:
             solution_fn_a = day4.part_one
             solution_fn_b = day4.part_two
+        case 5:
+            solution_fn_a = day5.part_one
+            solution_fn_b = day5.part_two
         case day:
             raise ValueError("Day {} not implemented".format(day))
 
